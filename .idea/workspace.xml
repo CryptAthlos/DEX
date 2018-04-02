@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c98f9c2d-59a2-40a9-93f1-65cfec04b4c4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/DEX.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DEX.iml" afterDir="false" />
-    </list>
+    <list default="true" id="c98f9c2d-59a2-40a9-93f1-65cfec04b4c4" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +52,9 @@
       </list>
     </option>
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c98f9c2d-59a2-40a9-93f1-65cfec04b4c4" name="Default" comment="" />
@@ -85,5 +86,8 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
 </project>
