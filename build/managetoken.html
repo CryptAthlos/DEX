@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>DTE - Distributed Token Exchange</title>
+    <title>ADE - Athlos Distributed Exchange</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <script src="./app.js"></script>
 </head>
@@ -26,7 +26,7 @@
             <ul class="nav navbar-nav">
                 <li><a href="index.html">Exchange Overview</a></li>
                 <li><a href="trading.html">Fixed Token Trading</a></li>
-                <li class="active"><a href="managetoken.html">Managetoken <span class="sr-only">(current)</span></a>
+                <li class="active"><a href="managetoken.html">Manage Token <span class="sr-only">(current)</span></a>
                 </li>
             </ul>
         </div><!-- /.navbar-collapse -->
@@ -39,7 +39,7 @@
         <div class="col-lg-8">
 
             <h1>Manage Token</h1>
-            <p>This page is intended for the FIXED Token as sample only. You can send token and you can approve token.
+            <p>This page is intended for the FIXED Token as an example only. Here you can send and approve tokens.
                 <br/>
                 Additionally you can add a token to the exchange provided in this example.</p>
             <h3>You have <span class="black"><span id="balanceTokenInToken"></span> TOKEN</span> in your account</h3>
@@ -53,7 +53,7 @@
 
                             <form>
                                 <div class="form-group">
-                                    <label for="inputAmountSendToken">Amount in Token</label>
+                                    <label for="inputAmountSendToken">Token Amount</label>
                                     <input type="number" name="inputAmountSendToken" class="form-control"
                                            id="inputAmountSendToken" placeholder="e.g., 95">
                                 </div>
@@ -77,7 +77,7 @@
                         <div class="panel-body">
                             <form>
                                 <div class="form-group">
-                                    <label for="inputAmountAllowanceToken">Amount in Token</label>
+                                    <label for="inputAmountAllowanceToken">Token Amount</label>
                                     <input type="number" name="inputAmountAllowanceToken" class="form-control"
                                            id="inputAmountAllowanceToken" placeholder="e.g., 95">
                                 </div>
@@ -91,10 +91,9 @@
                                 </button>
                             </form>
                         </div>
-                        <div class="panel-footer">Approve the address <i>to be allowed</i> to send a token from your
-                            address to another address. This is important for the Exchange. When you fund the token in
-                            the exchange then it will deduct in your name the token from your address to the token
-                            address.
+                        <div class="panel-footer">Approve the address allowed to send a token from your
+                            address to another address. This is important for the Exchange. When you want to fund the token in
+                            the exchange then it will deduct the token from your address to the exchange token address.
                         </div>
                     </div>
 

@@ -8,14 +8,14 @@
       "type": "constructor"
     }
   ],
-  "bytecode": "0x60606040523415600e57600080fd5b336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550603580605b6000396000f3006060604052600080fd00a165627a7a72305820766af0df4d3ba97ce3f48713874c2ad441485875809bc361b2e518dceead2a3b0029",
-  "deployedBytecode": "0x6060604052600080fd00a165627a7a72305820766af0df4d3ba97ce3f48713874c2ad441485875809bc361b2e518dceead2a3b0029",
+  "bytecode": "0x60606040523415600e57600080fd5b336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550603580605b6000396000f3006060604052600080fd00a165627a7a72305820bc23203abe45184935bb23385752540d4083130246c00ee66cff787c6f50db9a0029",
+  "deployedBytecode": "0x6060604052600080fd00a165627a7a72305820bc23203abe45184935bb23385752540d4083130246c00ee66cff787c6f50db9a0029",
   "sourceMap": "25:189:3:-;;;160:52;;;;;;;;195:10;187:5;;:18;;;;;;;;;;;;;;;;;;25:189;;;;;;",
   "deployedSourceMap": "25:189:3:-;;;;;",
   "source": "pragma solidity ^0.4.0;\n\ncontract owned {\n    address owner;\n\n    modifier onlyowner() {\n        if (msg.sender == owner) {\n            _;\n        }\n    }\n\n    function owned() {\n        owner = msg.sender;\n    }\n}",
-  "sourcePath": "/home/jon/dex/contracts/owned.sol",
+  "sourcePath": "/home/jon/DEX/contracts/owned.sol",
   "ast": {
-    "absolutePath": "/home/jon/dex/contracts/owned.sol",
+    "absolutePath": "/home/jon/DEX/contracts/owned.sol",
     "exportedSymbols": {
       "owned": [
         3293
@@ -277,7 +277,7 @@
     "src": "0:214:3"
   },
   "legacyAST": {
-    "absolutePath": "/home/jon/dex/contracts/owned.sol",
+    "absolutePath": "/home/jon/DEX/contracts/owned.sol",
     "exportedSymbols": {
       "owned": [
         3293
@@ -544,5 +544,5 @@
   },
   "networks": {},
   "schemaVersion": "2.0.0",
-  "updatedAt": "2018-03-29T22:37:08.094Z"
+  "updatedAt": "2018-04-03T15:47:08.036Z"
 }

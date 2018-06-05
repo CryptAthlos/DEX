@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>DTE - Distributed Token Exchange</title>
+    <title>ADE - Athlos Distributed Exchange</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <script src="./app.js"></script>
 </head>
@@ -26,7 +26,7 @@
                 <li class="active"><a href="index.html">Exchange Overview<span class="sr-only">(current)</span></a>
                 </li>
                 <li><a href="trading.html">Fixed Token Trading</a></li>
-                <li><a href="managetoken.html">Managetoken</a></li>
+                <li><a href="managetoken.html">Manage Token</a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
@@ -37,7 +37,7 @@
     <div class="row">
         <div class="col-lg-8">
 
-            <h1>Distributed Token Exchange</h1>
+            <h1>Athlos Distributed Exchange</h1>
             <h3>You have <span class="black"><span id="balanceTokenInExchange"></span> FIXED TOKEN</span> in the
                 exchange</h3>
             <h3>You have <span class="black"><span id="balanceEtherInExchange"></span> ETHER</span> in the exchange</h3>
@@ -59,7 +59,7 @@
                                            id="inputNameDepositToken" placeholder="e.g. FIXED">
                                 </div>
                                 <div class="form-group">
-                                    <label for="inputAmountDepositToken">Amount in Token</label>
+                                    <label for="inputAmountDepositToken">Token Amount</label>
                                     <input type="number" name="inputAmountDepositToken" class="form-control"
                                            id="inputAmountDepositToken" placeholder="e.g., 95">
                                 </div>
@@ -82,7 +82,7 @@
 
                             <form>
                                 <div class="form-group">
-                                    <label for="inputAmountDepositEther">Amount in Ether</label>
+                                    <label for="inputAmountDepositEther">Ether Amount</label>
                                     <input type="number" name="inputAmountDepositEther" class="form-control"
                                            id="inputAmountDepositEther" placeholder="e.g., 95">
                                 </div>
@@ -116,7 +116,7 @@
                                            id="inputNameWithdrawalToken" placeholder="e.g. FIXED">
                                 </div>
                                 <div class="form-group">
-                                    <label for="inputAmountWithdrawalToken">Amount in Token</label>
+                                    <label for="inputAmountWithdrawalToken">Token Amount</label>
                                     <input type="number" name="inputAmountWithdrawalToken" class="form-control"
                                            id="inputAmountWithdrawalToken" placeholder="e.g., 95">
                                 </div>
@@ -139,7 +139,7 @@
                         <div class="panel-body">
                             <form>
                                 <div class="form-group">
-                                    <label for="inputAmountWithdrawalEther">Amount in Token</label>
+                                    <label for="inputAmountWithdrawalEther">Ether Amount</label>
                                     <input type="number" name="inputAmountWithdrawalEther" class="form-control"
                                            id="inputAmountWithdrawalEther" placeholder="e.g., 95">
                                 </div>
@@ -160,7 +160,7 @@
         <div class="col-lg-4" style="background-color: #eee; min-height: 100vh;">
             <h3>Events from the Token Contract</h3>
             <div id="tokenEvents"></div>
-            <h3>Status from our Javascript</h3>
+            <h3>Status from Javascript</h3>
             <span id="status"></span>
             <h3>Important Information</h3>
             <span id="importantInformation"></span>

@@ -54,13 +54,13 @@ window.App = {
     printImportantInformation: function () {
         ExchangeContract.deployed().then(function (instance) {
             var divAddress = document.createElement("div");
-            divAddress.appendChild(document.createTextNode("Address Exchange: " + instance.address));
+            divAddress.appendChild(document.createTextNode("Exchange Address: " + instance.address));
             divAddress.setAttribute("class", "alert alert-info");
             document.getElementById("importantInformation").appendChild(divAddress);
         });
         TokenContract.deployed().then(function (instance) {
             var divAddress = document.createElement("div");
-            divAddress.appendChild(document.createTextNode("Address Token: " + instance.address));
+            divAddress.appendChild(document.createTextNode("Token Contract Address: " + instance.address));
             divAddress.setAttribute("class", "alert alert-info");
             document.getElementById("importantInformation").appendChild(divAddress);
         });
@@ -183,7 +183,7 @@ window.App = {
         var exchangeInstance;
         ExchangeContract.deployed().then(function (instance) {
             exchangeInstance = instance;
-            return exchangeInstance.depositToken(nameToken, amountToken, {from: account, gas: 4500000});
+            return exchangeInstance.depositToken(nameToken, amountToken, {from: account, gas: 2500000});
         }).then(function (txResult) {
             console.log(txResult);
             App.refreshBalanceExchange();
