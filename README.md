@@ -11,7 +11,7 @@ The Exchange Smart-Contract has 3 functions:
 The Exchange is unit tested with Truffle's Test-Framework.
 
 
-<h2>Follow the [build instructions](https://github.com/ethereum/go-ethereum/wiki/Building-Ethereum) for your respective platform to get geth installed</h2>
+<h2>Follow the build [instructions](https://github.com/ethereum/go-ethereum/wiki/Building-Ethereum) for your respective platform to get geth installed</h2>
 
 Setup and activate a [virtualenv](https://www.linkedin.com/pulse/setup-python-virtualenv-ubuntu-1604-jonathan-froiland/)
 

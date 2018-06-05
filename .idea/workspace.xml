@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c98f9c2d-59a2-40a9-93f1-65cfec04b4c4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/genesis.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/javascripts/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascripts/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/managetoken.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/managetoken.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/trading.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/trading.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/contracts/ERC20Interface.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/contracts/ERC20Interface.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/contracts/Exchange.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/contracts/Exchange.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/contracts/FixedSupplyToken.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/contracts/FixedSupplyToken.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/contracts/Migrations.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/contracts/Migrations.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/contracts/owned.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/contracts/owned.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/managetoken.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/managetoken.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/trading.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/trading.html" afterDir="false" />
-    </list>
+    <list default="true" id="c98f9c2d-59a2-40a9-93f1-65cfec04b4c4" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,20 +15,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="577">
-                <caret line="84" column="7" selection-start-line="84" selection-start-column="7" selection-end-line="84" selection-end-column="7" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/homework/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="108">
-                <caret line="9" column="16" selection-end-line="46" />
+              <first_editor relative-caret-position="1044">
+                <caret line="87" selection-start-line="87" selection-end-line="87" />
               </first_editor>
               <second_editor />
             </state>
@@ -153,7 +124,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="37" y="-3" width="1883" height="1083" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24946351" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -415,16 +385,6 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/homework/skeleton.py" />
-    <entry file="file://$USER_HOME$/homework/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="108">
-            <caret line="9" column="16" selection-end-line="46" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/genesis.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -435,11 +395,21 @@
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$USER_HOME$/homework/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="108">
+            <caret line="9" column="16" selection-end-line="46" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="577">
-            <caret line="84" column="7" selection-start-line="84" selection-start-column="7" selection-end-line="84" selection-end-column="7" />
+          <first_editor relative-caret-position="1044">
+            <caret line="87" selection-start-line="87" selection-end-line="87" />
           </first_editor>
           <second_editor />
         </state>
